@@ -1,6 +1,6 @@
 import subprocess
 
-benchmarks = [["bzip2_base.i386-m32-gcc42-nn", "dryer.jpg"],["mcf_base.i386-m32-gcc42-nn", "inp.in"],["hmmer_base.i386-m32-gcc42-nn", "bombesin.hmm"],["sjeng_base.i386-m32-gcc42-nn", "test.txt"],["milc_base.i386-m32-gcc42-nn", "<", "su3imp.in"],["equake_base.pisa_little", "<", "inp.in", ">", "inp.out"]]
+benchmarks = [["../bzip2/bzip2_base.i386-m32-gcc42-nn", "../bzip2/dryer.jpg"],["../mcf/mcf_base.i386-m32-gcc42-nn", "../mcf/inp.in"],["../hmmer/hmmer_base.i386-m32-gcc42-nn", "../hmmer/bombesin.hmm"],["../sjeng/sjeng_base.i386-m32-gcc42-nn", "../sjeng/test.txt"],["../milc/milc_base.i386-m32-gcc42-nn", "<", "../milc/su3imp.in"],["../equake/equake_base.pisa_little", "<", "../equake/inp.in", ">", "../equake/inp.out"]]
 
 benckmarknames = ["bzip_out","mcf_out","hmmer_out","sjeng_out","milc_out","equake_out"]
 
